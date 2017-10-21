@@ -1,11 +1,9 @@
-# Ribbbon
+[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
+[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
 
-_V 2.2_
+* Inspired from Ribbbon project management
 
-
-[Ribbbon.com](http://ribbbon.com)
-
-Ribbbon is a project management system built on Laravel 5.1.* & Vue.js :)
+project management system built on Laravel 5.1.* & Vue.js :)
 
 # Features
   - User / account creation
@@ -16,10 +14,6 @@ Ribbbon is a project management system built on Laravel 5.1.* & Vue.js :)
   - Project sharing
   - Api Driven
 
-# Get involved
-  - Clone or fork the project. 
-  - Create feature branches off develop branch.
-  - Once your changes are ready create a pull request into the master branch.
    
 # Installation
  - Clone the repo
