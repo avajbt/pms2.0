@@ -1,4 +1,4 @@
-@extends('templates.outs.home')
+@extends('templates/outs/home')
 
 @section('content')
 

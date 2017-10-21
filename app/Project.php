@@ -7,6 +7,7 @@ use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\DB;
 
 class Project extends Model {
+
 	protected $fillable = [
 			'user_id',
 			'client_id',
@@ -75,7 +76,7 @@ class Project extends Model {
 		return true;
 	}
 
-	// Get the toal weight of the given project
+	// Get the total weight of the given project
 	public function totalWeight(){
 		return $this->tasks()->where('state','!=','complete')->sum('weight');
 	}

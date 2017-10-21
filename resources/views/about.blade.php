@@ -31,7 +31,7 @@
                 <img class="img-responsive" src="http://placehold.it/750x450" alt="">
                 <div class="caption">
                     <h3>Levi Kris Carreon<br>
-                        <small>Web Developer</small>
+                        <small>Designer/Tester</small>
                     </h3>
                     <ul class="list-inline">
                         <li>
@@ -48,7 +48,7 @@
                 <img class="img-responsive" src="http://placehold.it/750x450" alt="">
                 <div class="caption">
                     <h3>Ann Vincent Abellana<br>
-                        <small>Big Boss</small>
+                        <small>Programmer/Web Developer</small>
                     </h3>
                     <ul class="list-inline">
                         <li><a href="https://www.facebook.com/AVAJBT"><i class="fa fa-2x fa-facebook-square"></i></a>

@@ -282,7 +282,7 @@ var project = new Vue({
         },
         deleteCredential: function(credential){
             showSheet();
-            makePrompt("Are you sure you want to delete this credential?","","No now", "Yes");
+            makePrompt("Are you sure you want to delete this credential?","","Not now", "Yes");
 
             $("#cancel-btn").click(function(){
                 closePrompt();

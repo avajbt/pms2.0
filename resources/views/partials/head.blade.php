@@ -33,10 +33,10 @@
 	<header><h3 class="color-badge"></h3></header>
 	<div>
 		<p></p>
-        <section>
-            <span id="cancel-btn" class="btn"></span>
-            <span id="confirm-btn" class="btn"></span>
-        </section>
+		<section>
+			<span id="cancel-btn" class="btn"></span>
+			<span id="confirm-btn" class="btn"></span>
+		</section>
 	</div>
 </div>
 

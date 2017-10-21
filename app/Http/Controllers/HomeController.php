@@ -15,9 +15,9 @@ class HomeController extends BaseController {
 	// Depending if the user is signed in or not, return the home page 
 	public function index(){
 		if( Auth::check() ) {
-			return View::make('ins/hud')->with('pTitle', "Hud");
+			return View::make('ins/hud')->with('pTitle', "Hud/Home");
 		}else{
-			return View::make('index')->with('pTitle', "A project management system for artisans");
+			return View::make('index')->with('pTitle', "iConstruct: A Project Monitoring System");
 		}
 	}
 

@@ -24,7 +24,7 @@
                     Mindanao Kokusai Daigaku<br>Davao City, Philippines 8000<br>
                 </p>
                 <p><i class="fa fa-envelope-o"></i>
-                    <abbr title="Email">E</abbr>: <a href="mailto:name@example.com">avajbt247@gmail.com</a>
+                    <abbr title="Email">E</abbr>: <a href="mailto:avajbt247@gmail.com">avajbt247@gmail.com</a>
                 </p>
                 <ul class="list-unstyled list-inline list-social-icons">
                     <li>
@@ -84,7 +84,9 @@
 
                         <div class="row">
                             <div class="col-md-12">
-                                <button type="submit" class="btn btn-primary btn-submit">Send Message</button>
+
+                                <a href="http://gmail.com" class="work-ext-link" >Send Message</a>
+
                             </div>
                         </div>
                     </form>

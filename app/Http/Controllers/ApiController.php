@@ -12,6 +12,7 @@ use App\Client;
 use App\Project;
 use App\Task;
 use App\Credential;
+use App\Products;
 
 class ApiController extends BaseController {
 

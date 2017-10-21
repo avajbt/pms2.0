@@ -32,6 +32,7 @@ Route::group(array('before' => 'auth'), function()
 	Route::get('hud', 'HomeController@index')->name('hud');
 	Route::get('search', 'HomeController@search')->name('search');
 	Route::get('profile', 'UsersController@index')->name('profile');
+    Route::get('products', 'ProductsController@index')->name('products');
 	Route::get('clients', 'ClientsController@index')->name('clients');
 	Route::delete('clients/{id}', 'ClientsController@destroy');
     Route::resource('projects', 'ProjectsController', array('only' => array('show')));
@@ -78,6 +79,14 @@ Route::group(['prefix' => '/api/'], function()
     Route::post('credentials', 'CredentialsController@storeCredential');
     Route::put('credentials/{id}', 'CredentialsController@updateCredential');
     Route::delete('credentials/{id}', 'CredentialsController@removeCredential');
+
+    // PRODUCTS
+    Route::get('products','ProductsController@getProducts');
+    Route::post('products', 'ProductsController@storeProducts');
+    Route::put('products', 'ProductsController@updateProducts');
+    Route::delete('products', 'ProductsController@removeProducts');
+
+
 });
 
 //----------------- Admin routes

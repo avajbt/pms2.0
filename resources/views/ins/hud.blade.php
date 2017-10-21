@@ -93,10 +93,10 @@
                                 </div>
                             </td>
 
-                            <td><a v-on:click="" type="button" class="btn btn-link">APPROVE</a>
-                                <a v-on:click="" type="button" class="btn btn-link">DECLINE</a>
+                            <td>
+                                <button type="button" class="btn btn-default">APPROVED</button>
+                                <button type="button" class="btn btn-default">DECLINE</button>
                             </td>
-
                         </tr>
                         </tbody>
                     </table>

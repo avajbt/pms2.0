@@ -24,14 +24,14 @@
 				  		<a href="{{ route('clients', ['id' => $client->id]) }}">
 				  			{{ $client->name }}
 				  		</a>
-				  	@endforeach			  			  	
+				  	@endforeach
 				@else
 				    <section class="info">
-						<p class="dimmed">Sorry I couldn't find nothing....</p>	
+						<p class="dimmed">Sorry I couldn't find nothing....</p>
 				    </section>
 			  	@endif
 			  </div>
-			</div>			
+			</div>
 
 			{{-- projects --}}
 			<div class="panel panel-default panel-list">
@@ -43,10 +43,10 @@
 				  			{{ $project->name }}
 				  			<span class="weight pull-right">w.{{ $project->totalWeight()}}</span>
 				  		</a>
-				  	@endforeach			  			  	
+				  	@endforeach
 				@else
 				    <section class="info">
-						<p class="dimmed">Sorry I couldn't find nothing....</p>	
+						<p class="dimmed">Sorry I couldn't find nothing....</p>
 				    </section>
 			  	@endif
 			  </div>
@@ -62,15 +62,15 @@
 				  			{{ $task->name }}
 				  			<span class="weight pull-right">w.{{ $task->weight}}</span>
 				  		</a>
-				  	@endforeach			  			  	
+				  	@endforeach
 				@else
 					  <section class="info">
 						  <p class="dimmed">Sorry I couldn't find nothing....</p>
 					  </section>
 			  	@endif
 			  </div>
-			</div>			
-	
+			</div>
+
 		</div>
 	</div>
 
